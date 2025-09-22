@@ -2,10 +2,10 @@ import dcLogo from '../assets/img/dc-logo.png'
 export default function AppHeader() {
     return (
         <header>
-            <div className="container">
+            <div className="">
                 <div className="row">
-                    <img src={dcLogo} alt="" className="col" />
-                    <nav className="col">
+                    <img src={dcLogo} alt="" className="col-1" />
+                    <nav className="col text-end mt-5">
                         <a><b>CHARACTERS</b></a>
                         <a><b>COMICS</b></a>
                         <a><b>MOVIES</b></a>

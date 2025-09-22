@@ -5,29 +5,9 @@
   font-family: 'Open Sans Variable', sans-serif;
 }
 
-.container {
-  width: 30%;
-  max-width: 1176px;
-  margin: auto;
-}
+nav {
 
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0 -1rem;
-}
-
-.col {
-  width: calc(100% / 2);
-  padding: 1rem;
-  justify-content: space-between;
-}
-
-header {
-  nav {
-
-    a {
-      padding: 1rem;
-    }
+  a {
+    padding: 1rem;
   }
 }
