@@ -5,9 +5,26 @@
   font-family: 'Open Sans Variable', sans-serif;
 }
 
-nav {
+header {
+  margin: 2rem;
+}
 
-  a {
-    padding: 1rem;
-  }
+.d-flex {
+  display: flex;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.dc-logo {
+  max-height: 100px;
+}
+
+
+.options {
+  justify-content: right;
+  align-items: center;
+  gap: 20px;
 }
