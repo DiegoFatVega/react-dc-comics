@@ -60,18 +60,34 @@ export default function AppFooter() {
                 </div>
             </section>
 
-            <section className="container d-flex social">
-                <h1>SIGN-UP NOW!</h1>
-                <div>
-                    <h1><b>FOLLOW US</b></h1>
-                    <img src={footer_facebook} alt=""></img>
-                    <img src={footer_twitter} alt=""></img>
-                    <img src={footer_youtube} alt=""></img>
-                    <img src={footer_pinterest} alt=""></img>
-                    <img src={footer_periscope} alt=""></img>
+            <section className='background '>
+                <div className=' d-flex social'>
+                    {/* <div className='d-flex '>
+                        <h1>SIGN-UP NOW!</h1>
+                    </div> */}
+
+                    <div className='container d-flex social-icons'>
+                        <div className='icon d-flex'>
+                            <h1>FOLLOW US</h1>
+                        </div>
+                        <div className='icon d-flex'>
+                            <img src={footer_facebook} alt=""></img>
+                        </div>
+                        <div className='icon d-flex'>
+                            <img src={footer_twitter} alt=""></img>
+                        </div>
+                        <div className='icon d-flex'>
+                            <img src={footer_youtube} alt=""></img>
+                        </div>
+                        <div className='icon d-flex'>
+                            <img src={footer_pinterest} alt=""></img>
+                        </div>
+                        <div className='icon d-flex'>
+                            <img src={footer_periscope} alt=""></img>
+                        </div>
+
+                    </div>
                 </div>
-
-
             </section>
         </footer>
     )

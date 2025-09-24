@@ -71,7 +71,7 @@ footer {
   background-image: url('./assets/img/footer-bg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  height: 700px;
+  height: auto;
   color: white;
   padding: 40px;
 
@@ -106,5 +106,24 @@ footer {
     text-decoration: none;
   }
 
+  .background {
+    height: 100px;
+    background-color: #303030;
+    justify-content: center;
+  }
 
+  .social {
+    width: auto;
+    justify-content: space-between;
+
+  }
+
+  .social-icons {
+    width: 20px;
+    height: auto;
+  }
+
+  .icon {
+    gap: 0px;
+  }
 }
