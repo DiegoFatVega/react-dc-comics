@@ -5,10 +5,6 @@
   font-family: 'Open Sans Variable', sans-serif;
 }
 
-header {
-  margin: 2rem;
-}
-
 .d-flex {
   display: flex;
 }
@@ -17,6 +13,12 @@ header {
   width: 100%;
   margin: 0 auto;
 }
+
+header {
+  margin: 2rem;
+
+}
+
 
 .dc-logo {
   max-height: 100px;
@@ -27,4 +29,82 @@ header {
   justify-content: right;
   align-items: center;
   gap: 20px;
+}
+
+/* ================================================= */
+
+main {
+
+  background-color: #0282f9;
+
+  .content {
+    background-color: #303030;
+    color: antiquewhite;
+  }
+
+  .icons-group {
+    align-items: center;
+    width: auto;
+    justify-content: space-around;
+  }
+
+  .icon-item {
+    height: 6rem;
+    width: auto;
+    align-items: center;
+    gap: 10px;
+    font-weight: 600;
+    font-size: 14px;
+    color: white;
+  }
+
+  .icon-item img {
+    height: 60px;
+    width: auto;
+  }
+
+
+}
+
+/* ================================================= */
+footer {
+  background-image: url('./assets/img/footer-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  color: white;
+  padding: 40px;
+
+  /* .first-column {
+    flex-direction: column;
+    gap: 10px;
+  } */
+
+  .footer-links {
+    gap: 30px;
+  }
+
+  .footer-links h4 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+
+  .footer-links ul {
+    list-style: none;
+    height: 180px;
+
+  }
+
+  .footer-links li {
+    margin-bottom: 4px;
+    font-size: small;
+  }
+
+  .footer-links a {
+    color: #aaa;
+    text-decoration: none;
+  }
+
+
 }
