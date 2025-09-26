@@ -31,38 +31,58 @@
 
 main {
 
-  background-color: #0282f9;
+  .jumbotron {
+    background-image: url('./assets/img/jumbotron.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    position: relative;
+
+  }
+
+  .current-series {
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 3px;
+    background-color: #0282f9;
+    position: absolute;
+    left: 5%;
+    bottom: -6%;
+    color: white;
+  }
 
   .content {
     background-color: #303030;
-    color: antiquewhite;
-    height: 100px;
+    height: 500px;
   }
 
-  .icons-group {
-    align-items: center;
-    height: 180px;
-    justify-content: space-around;
-
-
-    .icon-item {
-      height: 6rem;
-      width: auto;
-      align-items: center;
-      gap: 10px;
-      font-weight: 600;
-      font-size: 14px;
-      color: white;
-    }
-
-    .icon-item img {
-      height: 60px;
-      width: auto;
-    }
-
-
-  }
 }
+
+
+.icons-group {
+  background-color: #0282f9;
+  align-items: center;
+  height: 180px;
+  justify-content: space-around;
+
+
+  .icon-item {
+    height: 6rem;
+    width: auto;
+    align-items: center;
+    gap: 10px;
+    font-weight: 600;
+    font-size: 14px;
+    color: white;
+  }
+
+  .icon-item img {
+    height: 60px;
+    width: auto;
+  }
+
+}
+
 
 /* ================================================= */
 footer {
@@ -72,10 +92,10 @@ footer {
   height: auto;
   color: white;
 
-  /* .first-column {
-    flex-direction: column;
-    gap: 10px;
-  } */
+  a {
+    color: #aaa;
+    text-decoration: none;
+  }
 
   .footer-links {
     height: 400px;
@@ -104,11 +124,6 @@ footer {
     font-size: small;
   }
 
-  .footer-links a {
-    color: #aaa;
-    text-decoration: none;
-  }
-
   .background {
     height: 100px;
     background-color: #303030;
@@ -124,14 +139,15 @@ footer {
     gap: 20px;
   }
 
-  .follow-us {
-    color: #057def;
-  }
-
   .sign-up-now {
     border: 2px solid #057def;
     padding: 10px;
     font-size: large;
   }
+
+  .follow-us {
+    color: #057def;
+  }
+
 
 }
