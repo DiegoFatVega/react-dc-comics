@@ -14,22 +14,18 @@
   margin: 0 auto;
 }
 
-header {
-  margin: 2rem;
-
+.nav-bar {
+  padding: 20px;
+  justify-content: space-evenly;
+  gap: 38%;
+  font-size: 0.9rem;
 }
-
-
-.dc-logo {
-  max-height: 100px;
-}
-
 
 .options {
-  justify-content: right;
+  gap: 30px;
   align-items: center;
-  gap: 20px;
 }
+
 
 /* ================================================= */
 
@@ -40,30 +36,32 @@ main {
   .content {
     background-color: #303030;
     color: antiquewhite;
+    height: 100px;
   }
 
   .icons-group {
     align-items: center;
-    width: auto;
+    height: 180px;
     justify-content: space-around;
+
+
+    .icon-item {
+      height: 6rem;
+      width: auto;
+      align-items: center;
+      gap: 10px;
+      font-weight: 600;
+      font-size: 14px;
+      color: white;
+    }
+
+    .icon-item img {
+      height: 60px;
+      width: auto;
+    }
+
+
   }
-
-  .icon-item {
-    height: 6rem;
-    width: auto;
-    align-items: center;
-    gap: 10px;
-    font-weight: 600;
-    font-size: 14px;
-    color: white;
-  }
-
-  .icon-item img {
-    height: 60px;
-    width: auto;
-  }
-
-
 }
 
 /* ================================================= */
@@ -73,7 +71,6 @@ footer {
   background-size: cover;
   height: auto;
   color: white;
-  padding: 40px;
 
   /* .first-column {
     flex-direction: column;
@@ -81,7 +78,13 @@ footer {
   } */
 
   .footer-links {
+    height: 400px;
+    padding-top: 30px;
+    padding-left: 40px;
     gap: 30px;
+    background-image: url('./assets/img/dc-logo-bg.png');
+    background-repeat: no-repeat;
+    background-position: 77%;
   }
 
   .footer-links h4 {
@@ -109,21 +112,26 @@ footer {
   .background {
     height: 100px;
     background-color: #303030;
-    justify-content: center;
-  }
-
-  .social {
-    width: auto;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 58%;
 
   }
 
   .social-icons {
-    width: 20px;
     height: auto;
+    justify-content: space-evenly;
+    gap: 20px;
   }
 
-  .icon {
-    gap: 0px;
+  .follow-us {
+    color: #057def;
   }
+
+  .sign-up-now {
+    border: 2px solid #057def;
+    padding: 10px;
+    font-size: large;
+  }
+
 }

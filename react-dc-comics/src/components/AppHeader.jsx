@@ -5,7 +5,7 @@ export default function AppHeader() {
         <header>
             <div className="container d-flex nav-bar">
                 <img src={dcLogo} alt="DC-logo" className="dc-logo" />
-                <div className="container d-flex options">
+                <div className="d-flex options">
                     <a><b>CHARACTERS</b></a>
                     <a><b>COMICS</b></a>
                     <a><b>MOVIES</b></a>

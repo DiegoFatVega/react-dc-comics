@@ -3,6 +3,8 @@ import footer_twitter from '../assets/img/footer-twitter.png'
 import footer_youtube from '../assets/img/footer-youtube.png'
 import footer_pinterest from '../assets/img/footer-pinterest.png'
 import footer_periscope from '../assets/img/footer-periscope.png'
+
+import dc_logo_bg from '../assets/img/dc-logo-bg.png'
 export default function AppFooter() {
     return (
         <footer>
@@ -59,34 +61,17 @@ export default function AppFooter() {
                     </ul>
                 </div>
             </section>
-
-            <section className='background '>
-                <div className=' d-flex social'>
-                    {/* <div className='d-flex '>
-                        <h1>SIGN-UP NOW!</h1>
-                    </div> */}
-
-                    <div className='container d-flex social-icons'>
-                        <div className='icon d-flex'>
-                            <h1>FOLLOW US</h1>
-                        </div>
-                        <div className='icon d-flex'>
-                            <img src={footer_facebook} alt=""></img>
-                        </div>
-                        <div className='icon d-flex'>
-                            <img src={footer_twitter} alt=""></img>
-                        </div>
-                        <div className='icon d-flex'>
-                            <img src={footer_youtube} alt=""></img>
-                        </div>
-                        <div className='icon d-flex'>
-                            <img src={footer_pinterest} alt=""></img>
-                        </div>
-                        <div className='icon d-flex'>
-                            <img src={footer_periscope} alt=""></img>
-                        </div>
-
-                    </div>
+            <section className='container d-flex background '>
+                <div className='social'>
+                    <h1 className='sign-up-now'>SIGN-UP NOW!</h1>
+                </div>
+                <div className='d-flex social-icons'>
+                    <h1 className='follow-us'>FOLLOW US</h1>
+                    <img src={footer_facebook} alt=""></img>
+                    <img src={footer_twitter} alt=""></img>
+                    <img src={footer_youtube} alt=""></img>
+                    <img src={footer_pinterest} alt=""></img>
+                    <img src={footer_periscope} alt=""></img>
                 </div>
             </section>
         </footer>
