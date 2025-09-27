@@ -15,14 +15,15 @@
 }
 
 .nav-bar {
-  padding: 20px;
-  justify-content: space-evenly;
+  padding: 30px 80px;
+  justify-content: space-between;
   font-size: 0.9rem;
+
 }
 
 .options {
-  justify-content: right;
   align-items: center;
+  gap: 30px;
 }
 
 
