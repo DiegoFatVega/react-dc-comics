@@ -1,10 +1,6 @@
-import footer_facebook from '../assets/img/footer-facebook.png'
-import footer_twitter from '../assets/img/footer-twitter.png'
-import footer_youtube from '../assets/img/footer-youtube.png'
-import footer_pinterest from '../assets/img/footer-pinterest.png'
-import footer_periscope from '../assets/img/footer-periscope.png'
+import FooterLinks from './FooterLinks'
+import FooterIcons from './FooterIcons'
 
-import dc_logo_bg from '../assets/img/dc-logo-bg.png'
 export default function AppFooter() {
     return (
         <footer>
@@ -13,51 +9,47 @@ export default function AppFooter() {
                     <div className='first-column'>
                         <h4>DC COMICS</h4>
                         <ul>
-                            <li><a href="#">Characters</a></li>
-                            <li><a href="#">Comics</a></li>
-                            <li><a href="#">Movies</a></li>
-                            <li><a href="#">TV</a></li>
-                            <li><a href="#">Games</a></li>
-                            <li><a href="#">Videos</a></li>
-                            <li><a href="#">News</a></li>
+                            <FooterLinks link={'Characters'}></FooterLinks>
+                            <FooterLinks link={'Comics'}></FooterLinks>
+                            <FooterLinks link={'Movies'}></FooterLinks>
+                            <FooterLinks link={'TV'}></FooterLinks>
+                            <FooterLinks link={'Games'}></FooterLinks>
+                            <FooterLinks link={'Videos'}></FooterLinks>
+                            <FooterLinks link={'News'}></FooterLinks>
                         </ul>
                     </div>
-
                     <div className="links-column">
                         <h4>SHOP</h4>
                         <ul>
-                            <li><a href="#">Shop DC</a></li>
-                            <li><a href="#">Shop DC Collectibles</a></li>
+                            <FooterLinks link={'Shop DC'}></FooterLinks>
+                            <FooterLinks link={'Shop DC Collectibles'}></FooterLinks>
                         </ul>
                     </div>
-
                 </div>
-
                 <div className="links-column">
                     <h4>DC</h4>
                     <ul>
-                        <li><a href="#">Terms Of Use</a></li>
-                        <li><a href="#">Privacy policy (New)</a></li>
-                        <li><a href="#">Ad Choices</a></li>
-                        <li><a href="#">Advertising</a></li>
-                        <li><a href="#">Jobs</a></li>
-                        <li><a href="#">Subscriptions</a></li>
-                        <li><a href="#">Talent Workshops</a></li>
-                        <li><a href="#">CPSC Certificates</a></li>
-                        <li><a href="#">Ratings</a></li>
-                        <li><a href="#">Shop Help</a></li>
-                        <li><a href="#">Contact Us</a></li>
+                        <FooterLinks link={'Terms Of Use'}></FooterLinks>
+                        <FooterLinks link={'Privacy and policy (New)'}></FooterLinks>
+                        <FooterLinks link={'Ad Choices'}></FooterLinks>
+                        <FooterLinks link={'Advertising'}></FooterLinks>
+                        <FooterLinks link={'Jobs'}></FooterLinks>
+                        <FooterLinks link={'Subscriptions'}></FooterLinks>
+                        <FooterLinks link={'Talent Workshops'}></FooterLinks>
+                        <FooterLinks link={'CPSC Certificates'}></FooterLinks>
+                        <FooterLinks link={'Ratings'}></FooterLinks>
+                        <FooterLinks link={'Shop Help'}></FooterLinks>
+                        <FooterLinks link={'Contact Us'}></FooterLinks>
                     </ul>
                 </div>
-
                 <div className="links-column">
                     <h4>SITES</h4>
                     <ul>
-                        <li><a href="#">DC</a></li>
-                        <li><a href="#">MAD Magazine</a></li>
-                        <li><a href="#">DC Kids</a></li>
-                        <li><a href="#">DC Universe</a></li>
-                        <li><a href="#">DC Power Visa</a></li>
+                        <FooterLinks link={'DC'}></FooterLinks>
+                        <FooterLinks link={'MAD Magazine'}></FooterLinks>
+                        <FooterLinks link={'DC Kids'}></FooterLinks>
+                        <FooterLinks link={'DC Universe'}></FooterLinks>
+                        <FooterLinks link={'DC Power Visa'}></FooterLinks>
                     </ul>
                 </div>
             </section>
@@ -65,14 +57,7 @@ export default function AppFooter() {
                 <div className='social'>
                     <a href='#'><h1 className='sign-up-now'>SIGN-UP NOW!</h1></a>
                 </div>
-                <div className='d-flex social-icons'>
-                    <a href='#'> <h1 className='follow-us'>FOLLOW US</h1></a>
-                    <a href='#'><img src={footer_facebook} alt=""></img></a>
-                    <a href='#'><img src={footer_twitter} alt=""></img></a>
-                    <a href='#'><img src={footer_youtube} alt=""></img></a>
-                    <a href='#'><img src={footer_pinterest} alt=""></img></a>
-                    <a href='#'><img src={footer_periscope} alt=""></img></a>
-                </div>
+                <FooterIcons></FooterIcons>
             </section>
         </footer>
     )
