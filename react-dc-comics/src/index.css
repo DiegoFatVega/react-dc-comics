@@ -70,6 +70,18 @@ main {
     padding-bottom: 2rem;
   }
 
+  .button {
+    justify-content: center;
+
+
+    button {
+      font-size: large;
+      color: white;
+      border-radius: 3px;
+      background-color: #0282f9;
+      padding: 15px 60px;
+    }
+  }
 }
 
 

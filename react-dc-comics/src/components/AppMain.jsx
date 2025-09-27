@@ -47,6 +47,9 @@ export default function AppMain() {
                         <ComicCard title={'Catwoman Vol. 1: Copycats'} img={'https://imgs.search.brave.com/bf_FlGnymAgmvweY8YiLAcyy600JdSMl_jHpdR3t5ro/rs:fit:612:612:1/g:ce/aHR0cHM6Ly9pNS53/YWxtYXJ0aW1hZ2Vz/LmNvbS9hc3IvNTA5/M2IxOTEtZTkzZS00/NTJjLThhYTQtYTEw/ZDY0ZTcxN2E5LjA5/N2UwZWM5NDgzYzky/OGExMjY4Nzk1Nzk2/NTliZWNjLmpwZWc_/b2RuV2lkdGg9NjEy/Jm9kbkhlaWdodD02/MTImb2RuQmc9ZmZm/ZmZm'}></ComicCard>
                     </div>
                 </div>
+                <div className='button d-flex'>
+                    <button><b>LOAD MORE</b></button>
+                </div>
             </section>
             <InfoBanner> </InfoBanner>
         </main>
