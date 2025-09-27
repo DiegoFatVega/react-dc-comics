@@ -125,12 +125,16 @@ footer {
 
   .footer-links {
     height: 400px;
-    padding-top: 30px;
-    padding-left: 40px;
+    padding-top: 40px;
+    padding-left: 80px;
     gap: 30px;
     background-image: url('./assets/img/dc-logo-bg.png');
     background-repeat: no-repeat;
     background-position: 77%;
+  }
+
+  .first-column {
+    flex-direction: column;
   }
 
   .footer-links h4 {
