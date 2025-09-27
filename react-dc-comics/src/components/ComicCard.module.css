@@ -1,0 +1,14 @@
+.card {
+    h3 {
+        width: 200px;
+        color: white;
+        margin: 250px -90px -90px;
+        text-align: start;
+    }
+
+    .comic_img {
+        max-width: 100%;
+        transform: scale(3.3);
+        transform-origin: top;
+    }
+}

@@ -31,6 +31,19 @@
 
 main {
 
+  .row {
+    margin-left: 7rem;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .col {
+    max-width: calc(100%/7);
+    padding: 5.6rem;
+    overflow: hidden;
+    position: relative;
+  }
+
   .jumbotron {
     background-image: url('./assets/img/jumbotron.jpg');
     background-repeat: no-repeat;
@@ -53,7 +66,8 @@ main {
 
   .content {
     background-color: #303030;
-    height: 500px;
+    height: auto;
+    padding-bottom: 2rem;
   }
 
 }
