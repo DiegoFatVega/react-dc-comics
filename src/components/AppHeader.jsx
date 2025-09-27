@@ -1,5 +1,6 @@
 import dcLogo from '../assets/img/dc-logo.png'
 import HeaderLinks from './HeaderLinks'
+import headerMenu from '../data/headerMenu'
 
 export default function AppHeader() {
     return (
@@ -7,16 +8,13 @@ export default function AppHeader() {
             <div className="container d-flex nav-bar">
                 <img src={dcLogo} alt="DC-logo" />
                 <div className='d-flex options'>
-                    <HeaderLinks link={'CHARACTERS'}></HeaderLinks>
-                    <HeaderLinks link={'COMICS'}></HeaderLinks>
-                    <HeaderLinks link={'MOVIES'}></HeaderLinks>
-                    <HeaderLinks link={'TV'}></HeaderLinks>
-                    <HeaderLinks link={'GAMES'}></HeaderLinks>
-                    <HeaderLinks link={'COLLECTIBLES'}></HeaderLinks>
-                    <HeaderLinks link={'VIDEOS'}></HeaderLinks>
-                    <HeaderLinks link={'FANS'}></HeaderLinks>
-                    <HeaderLinks link={'NEWS'}></HeaderLinks>
-                    <HeaderLinks link={'SHOP'}></HeaderLinks>
+                    {
+                        headerMenu.map(menu => (
+
+                            <HeaderLinks link={menu.link} text={menu.text} key={menu.id}></HeaderLinks>
+
+                        ))
+                    }
                 </div>
             </div>
         </header>

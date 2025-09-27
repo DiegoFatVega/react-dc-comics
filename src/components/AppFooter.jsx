@@ -11,7 +11,7 @@ export default function AppFooter() {
                     {
                         FirstFooterColumn.map(item => (
 
-                            <div className='first-column'>
+                            <div className='first-column' key={item.id}>
                                 <h4 key={item.id}>{item.title}</h4>
                                 <ul>{
                                     item.list.map(list => (

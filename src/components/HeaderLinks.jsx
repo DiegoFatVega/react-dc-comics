@@ -1,7 +1,7 @@
 
-export default function HeaderLinks({ link }) {
+export default function HeaderLinks({ text, link }) {
 
     return (
-        <a><b>{link}</b></a>
+        <a href={link}><b>{text}</b></a>
     )
 }

@@ -15,15 +15,22 @@
 }
 
 .nav-bar {
-  padding: 30px 80px;
-  justify-content: space-between;
+  padding: 30px 160px;
   font-size: 0.9rem;
+  justify-content: space-between;
 
-}
 
-.options {
-  align-items: center;
-  gap: 30px;
+  .options {
+    align-items: center;
+    gap: 20px;
+
+
+    a {
+      text-decoration: none;
+      color: black;
+    }
+  }
+
 }
 
 
